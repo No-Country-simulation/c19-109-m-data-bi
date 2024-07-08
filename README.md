@@ -1,4 +1,4 @@
-Modelo De Machine Learning Para Prediccion de Readmision Hospitalaria de pacientes
+Modelo de Machine Learning para predicción de readmisión hospitalaria de pacientes
 
 Objetivo
 Este proyecto busca desarrollar un modelo de machine learning que pueda predecir, dados los valores de ciertas variables de un paciente hospitalizado, 
