@@ -48,9 +48,4 @@ attach(database)
 # Para eliminar 
 rm()
 
-# Para conectar con github, tenerlo abierto en el navegador
-install.packages("usethis")
-library(usethis)
-usethis::create_github_token()
-gitcreds::gitcreds_set() 
 
