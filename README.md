@@ -1,6 +1,9 @@
-Modelo de Machine Learning para predicción de readmisión hospitalaria de pacientes
+***Modelo de Machine Learning para predicción de readmisión hospitalaria de pacientes***
 
-Objetivo
+---
+
+
+> # Objetivo
 
 Este proyecto busca desarrollar un modelo de machine learning que pueda predecir, dados los valores de ciertas variables de un paciente hospitalizado, 
 su probabilidad de ser reingresado en un lapso menor a 30 días después de ser dado de alta.
