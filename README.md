@@ -7,7 +7,7 @@ su probabilidad de ser reingresado en un lapso menor a 30 días después de ser 
 
 
 > ## Herramientas - Stack tecnológico
-![Stack Tecnológico](https://github.com/No-Country-simulation/c19-109-m-data-bi/blob/eb3709f3124882a6c318bdf7f90440e66f7ddc63/Images/Stack%20tecnol%C3%B3gico.png)
+![Stack Tecnológico](https://github.com/No-Country-simulation/c19-109-m-data-bi/blob/44229c8b78604a9265117800006e56a9109c8faf/Images/Stack_tecnologico.png)
 * Python: Lenguaje de programación utilizado para tareas de ETL como para el desarrollo del modelo de machine learning.
 * Google Colab: Entorno interactivo y colaborativo para explorar y analizar los datos, probar algoritmos y entrenar los modelos.
 * Visual Studio Code: IDE utilizado para codificar.
