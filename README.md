@@ -15,3 +15,20 @@ su probabilidad de ser reingresado en un lapso menor a 30 días después de ser 
 * GitHub: Plataforma de control de versiones para trabajo en equipo.
 
 AWS / GCP / Azure / ... ?
+
+> ## Fuentes de datos y Análisis Exploratorio
+> ## ETL
+> ## Feature engineering - Selección de parámetros y modelos
+> ## Entrenamiento de modelos
+> ## Testeo
+> ## Deployment
+> ## Monitoreo y Feedback
+> * Es importante recolectar datos para monitorear el uso y funcionamiento del sistema. La BD podría incluir una tabla de logs de todos los accesos a los datos y al modelo. Por ejemplo cada log podria incluir: TimeStamp, Parámetros del modelo, sus entradas y salidas.
+>  
+> ## Seguridad
+> ## Scaling de la Aplicación - Futuras mejoras
+> * Herramientas de CI/CD
+> * Containerization
+> * Feedback de datos nuevos para reentrenar el modelo.
+> 
+> 
