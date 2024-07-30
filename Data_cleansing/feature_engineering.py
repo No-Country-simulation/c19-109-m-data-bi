@@ -3,18 +3,17 @@ import pandas as pd
 import base64
 import requests
 from sklearn import preprocessing
-import pandas as pd
 from io import StringIO
 
 # Acceder al archivo
-access_token = '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'
+access_token = '' # Acá deben reemplazar por su token de GitHub
 usuario = 'No-Country-simulation'
 repositorio = 'c19-109-m-data-bi'
 
 archivo = 'Source_data/diabetic_data_clean.csv'
 
-## URL raw del archivo CSV en GitHub
-url = f'https://raw.githubusercontent.com/No-Country-simulation/c19-109-m-data-bi/main/Source_data/diabetic_data_clean.csv?token=GHSAT0AAAAAACTOUBA7PDZ6PI5RG2WYF54QZVA4HFQ'  # Cambia esto a la URL raw real
+## Acá deben insertar la URL raw del archivo diabetic_data_clean.csv en GitHub
+url = f''
 
 ## Realizar una solicitud GET con autenticación
 response = requests.get(url, headers={'Authorization': f'token {access_token}'})
@@ -32,7 +31,7 @@ df['encounter_id'] = df['encounter_id'].astype(str)
 df['patient_nbr'] = df['patient_nbr'].astype(str)
 df.drop(columns=['readmitted>30', 'readmittedNO'], inplace=True)
 
-# Manejo de Ouliers
+# Manejo de Outliers
 numeric_features = list(df.select_dtypes(include=['int']).columns)
 ids_features = list(df.select_dtypes(include=['object']).columns)
 
@@ -68,17 +67,20 @@ for col in non_binary_non_ids_features:
     
 print(f"Manejo de outliers correcto")
     
-# Estandarización
+# Normalización
 
-scaler = preprocessing.RobustScaler()
+scaler = preprocessing.MinMaxScaler()
 scaled_array = scaler.fit_transform(df[non_binary_non_ids_features])
+
+'''scaler = preprocessing.RobustScaler()
+scaled_array = scaler.fit_transform(df[non_binary_non_ids_features])'''
 
 ## Convertir el array numpy a un DataFrame
 scaled_df = pd.DataFrame(scaled_array, columns=df[non_binary_non_ids_features].columns)
 
 final_df = pd.concat([df[ids_features], scaled_df, df[binary_features]], axis=1)
 
-print(f"Estandarización correcta")
+print(f"Normalización correcta")
 
 
 # Guardar el archivo en GitHub
