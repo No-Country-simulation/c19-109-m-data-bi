@@ -1,37 +1,31 @@
-# c19-109-m-data-bi
+# ***c19-109-m-data-bi***
 # ***Modelo de Machine Learning para predicción de readmisión hospitalaria de pacientes***
 ---
 
+
+> ## Introducción
+Este repositorio contiene el código y la documentación para un proyecto en que se busca desarrollar un MVP para el cumplimiento del proyecto de simulación en No Country.
+
+Como fuente de datos se utilizó un dataset obtenido de UC Irvine Machine Learning Repository, donado en 2014 por Center for Clinical and Translational Research - Virginia Commonwealth University: [Diabetes 130-US Hospitals for Years 1999-2008](https://archive.ics.uci.edu/dataset/296/diabetes+130-us+hospitals+for+years+1999-2008)
+
+
 > ## Objetivo
-Este proyecto busca desarrollar un modelo de machine learning que pueda predecir, dados los valores de ciertas variables de un paciente hospitalizado, 
-su probabilidad de ser reingresado en un lapso menor a 30 días después de ser dado de alta.
+El proyecto consiste en ofrecer una interfaz simple e intuitiva que, conectada a un modelo de machine learning, prediga si se espera que un paciente que sufre de diabetes sea readmitido en los próximos 30 días.
+
+
+> ## Producto final
+Click en la siguiente imagen para conocer la app:
+
+[![Producto final](https://github.com/No-Country-simulation/c19-109-m-data-bi/blob/44cbc9888a681b70451782c6308f827f56343057/Images/Logo_HospRead.jpg)](https://hospitalreadmissions.streamlit.app/)
+
 
 > ## Herramientas - Stack tecnológico
 ![Stack Tecnológico](https://github.com/No-Country-simulation/c19-109-m-data-bi/blob/44229c8b78604a9265117800006e56a9109c8faf/Images/Stack_tecnologico.png)
-* Python: Lenguaje de programación utilizado para tareas de ETL como para el desarrollo del modelo de machine learning.
-* R version 4.4.1 y RStudio 2024.04.2-764: Análisis y limpieza de datos.
-* Google Colab: Entorno interactivo y colaborativo para explorar y analizar los datos, probar algoritmos y entrenar los modelos.
-* Visual Studio Code: IDE utilizado para codificar.
-* SQLite - MySQL: Motores de bases de datos relacionales para almacenar y administrar los datos de los pacientes.
-* GitHub: Plataforma de control de versiones para trabajo en equipo.
 
-> ## Monitoreo y Feedback
-> * Es importante recolectar datos para monitorear el uso y funcionamiento del sistema. La BD podría incluir una tabla de logs de todos los accesos a los datos y al modelo. Por ejemplo cada log podria incluir: TimeStamp, Parámetros del modelo, sus entradas y salidas.
->  
-> ## Scaling de la Aplicación - Futuras mejoras
-> * Herramientas de CI/CD
-> * Containerization
-> * Feedback de datos nuevos para reentrenar el modelo.
->   
-> ## Fuente de Datos
-> Clore,John, Cios,Krzysztof, DeShazo,Jon, and Strack,Beata. (2014). Diabetes 130-US Hospitals for Years 1999-2008. UCI Machine Learning Repository. https://doi.org/10.24432/C5230J.
->
+
 > ## Colaboradores
-> Agradecemos a las siguientes personas por su contribución a este proyecto:
-> * Espinosa Carmona Juan - Data Engineer
-> * Maldonado Santiago - Machine Learning 
-> * Mayon Cisneros Flor Jazmin - Data Analyst
-> * Soler Riera Antonia - 
-
-
-
+Los creadores de este proyecto son:
+* Espinosa Carmona Juan
+* Maldonado Santiago
+* Mayon Cisneros Flor Jazmin
+* Soler Riera Antonia
