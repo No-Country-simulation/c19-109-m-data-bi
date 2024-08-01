@@ -9,6 +9,7 @@ su probabilidad de ser reingresado en un lapso menor a 30 días después de ser 
 > ## Herramientas - Stack tecnológico
 ![Stack Tecnológico](https://github.com/No-Country-simulation/c19-109-m-data-bi/blob/44229c8b78604a9265117800006e56a9109c8faf/Images/Stack_tecnologico.png)
 * Python: Lenguaje de programación utilizado para tareas de ETL como para el desarrollo del modelo de machine learning.
+* R version 4.4.1 y RStudio 2024.04.2-764: Análisis y limpieza de datos.
 * Google Colab: Entorno interactivo y colaborativo para explorar y analizar los datos, probar algoritmos y entrenar los modelos.
 * Visual Studio Code: IDE utilizado para codificar.
 * SQLite - MySQL: Motores de bases de datos relacionales para almacenar y administrar los datos de los pacientes.
